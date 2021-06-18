@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Mi Primera Web</title>
+</head>
+<body>
+	<!-- Comentario-->
+	<!--Usar H1 solo uno por pagina -->
+	<h1>Esto es un Titulo</h1>
+	<h2>Esto es un Titulo</h2>
+	<h3>Esto es un Titulo</h3>
+	<h4>Esto es un Titulo</h4>
+	<h5>Esto es un Titulo</h5>
+	<h6>Esto es un Titulo</h5>
+		<p>Hola <b>Estoy</b> <small>Aprendiendo</small> 
+		<i>Maquetación</i> con </br> Html <span style="color: blue ">Papuh!! </span></p>
+	<!--
+		<b></b> En negrita
+		<strong></strong> = Pero la web le da mas Importancia
+		<i></i>En Cursiva
+		<em></em> = Pero la web le da mas Importancia
+		<s></s> Tachar Palabra
+		<small></small> hace Pequeña la letra
+		<br> Salto de Linea
+	-->
+
+	<!--id Sólo una vez por documento,class mas de una Vez -->
+	  <p id="id1" class="id2">MI PRIMERA WEB </p>
+	  <style >
+	  	.id2{
+	  		background: lightyellow;
+	  	}
+	  </style>
+
+	  <!--<a href="mailto:contacto.html" target="blank">Ir a Google</a>-->
+
+	  <!--Enlaces-->
+	  <a href="contacto.html" target="blank">Ir a Google</a>
+
+
+	  <!--Secciones-->
+	  <section id="seccion1">
+	  		<a href="#seccion2">Ir a la Seccion 2</a>
+	  </section>
+	  <div>
+	  	<br>
+	  </div>
+	   <section id="seccion2">
+	  		<a href="#seccion3">Ir a la Seccion 3</a>
+	  </section>
+	  <div>
+	  	<br>
+	  </div>
+	   <section id="seccion1">
+	  		<a href="#seccion1">Volver al Inicio</a>
+	  </section>
+	  <div>
+	  	<br>
+	  </div>
+
+
+	  <!--Imagenes-->
+	  <img src="imagenes/imagen1.jpg" alt="FLO Campo " title="Campo de Flo" width="500" height="300">
+	  <!--URL con Imagenes-->
+	  <a href="https://www.google.es">
+	  	<img src="imagenes/imagen1.jpg" alt="FLO Campo " title="Campo de Flo" width="500" height="300">
+	  </a>
+
+	  <!--Listas-->
+	  <!--Listas Ordenadas-->
+	  <ol>
+	  	<li>Elemento1</li>
+	  	<li>Elemento2</li>
+	  	<li>Elemento3</li>
+	  </ol>
+
+	  <!--Listas Desordenadas-->
+	  <ul>
+	  	<li>Elemento1</li>
+	  	<li>Elemento2</li>
+	  	<li>Elemento3</li>
+	  </ul>
+
+	  <!--Formularios-->
+	  <form>
+	  		<fieldset>
+	  			<legend>Mi Formulario!</legend>
+	  			<input type="text" placeholder="Escribe TU nombre" required="">
+		  		<input type="number" >	  	
+		  		<input type="date" >	  	
+		  		<input type="email" >
+	  		</fieldset>
+	  		<label>Nombre : </label>
+	  		<input type="text" placeholder="Escribe TU nombre" required="">
+	  		<br>
+	  		<input type="number" >
+	  		<br>
+	  		<input type="date" >
+	  		<br>
+	  		<input type="email" >
+	  		<br>
+	  		<h2>Como nos has conocido?</h2>
+	  		<input type="radio" id="email" name="contact">
+	  		<label for="email" >Email</label>
+	  		<input type="radio" id="redes" name="contact">
+	  		<label for="redes" >Redes Sociales</label>
+	  		<br>
+	  		<h2>Como nos has Conocido ? </h2>
+	  		<select>
+	  			<option value="email">Email</option>
+	  			<option value="redes">Redes Sociales</option>
+	  		</select>
+	  		<br>
+	  		<textarea ></textarea>
+	  		<br>
+	  		<input type="submit" value="Envia Papuh">
+
+	  </form>
+
+
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/Xfl9gjgWJH4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	  <table>
+	  		<caption>Alumnos</caption>
+	  		<tr>
+	  			<th>Nombre</th>
+	  			<th>Apellidos</th>
+	  			<th>Edad</th>
+	  		</tr>
+	  		<tr>
+	  			<td>Dante</td>
+	  			<td>Qroz</td>
+	  			<td>20</td>
+	  		</tr>
+	  		<tr>
+	  			<td>Nly</td>
+	  			<td>ZZ</td>
+	  			<td>20</td>
+	  		</tr>
+	  </table>
+	  <style>
+	  	th,td,table{
+	  		border: 1px solid #000000;
+	  	}
+	  </style>
+
+
+	  <video src="Video.mp4" controls loop ></video>
+	  <audio src="Video.mp4" controls= loop ></audio>
+
+</body>
+</html>
